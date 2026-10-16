@@ -5,7 +5,7 @@ IT 110 Midterm Project
 GROUP NAME AND MEMBERS
 ------------------------------------------------------------
 Group: Individual project (no group)
-Member: Your Full Name
+Member: Ardee Maddox C. Clarito
 Role: Solo developer - HTML structure, CSS styling,
       JavaScript API integration, and documentation.
 
