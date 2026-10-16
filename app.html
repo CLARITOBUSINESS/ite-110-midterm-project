@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker App</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Weather Tracker</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="index.html" class="back-link">&larr; Back to Portfolio</a>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name..." autocomplete="off">
+            <button id="search-btn">Get Weather</button>
+        </div>
+
+        <div id="message-container" class="hidden"></div>
+
+       
+        <div id="weather-card" class="weather-card hidden">
+            <h2 id="city-name">--</h2>
+            <div class="weather-info">
+                <span id="temperature">--°C</span>
+                <p id="condition">--</p>
+            </div>
+            <div class="weather-details">
+                <p>Humidity: <span id="humidity">--</span>%</p>
+                <p>Wind Speed: <span id="wind">--</span> km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

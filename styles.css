@@ -1,0 +1,104 @@
+
+body {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ), url('rain.gif');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    color: white;
+    padding: 40px 20px 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    color: #222222;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative; 
+}
+
+.card h2:nth-of-type(2) {
+    font-size: 1.5rem;
+    line-height: 30px;
+    height: 30px;
+    margin: 262px 0 14px; 
+}
+
+
+.card h2:nth-of-type(2) + p {
+    line-height: 24px;
+    height: 24px;
+    margin: 0 0 14px;
+}
+
+.profile img {
+    position: absolute;
+    top: -320px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+    background: url("data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20100%20100%27%3E%3Crect%20width=%27100%27%20height=%27100%27%20fill=%27%23cbd5e1%27/%3E%3Ccircle%20cx=%2750%27%20cy=%2738%27%20r=%2718%27%20fill=%27%2394a3b8%27/%3E%3Cpath%20d=%27M14%20100c0-22%2016-36%2036-36s36%2014%2036%2036z%27%20fill=%27%2394a3b8%27/%3E%3C/svg%3E") center / cover no-repeat;
+    color: transparent;
+    font-size: 0;
+}
+
+
+.center-btn {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
